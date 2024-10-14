@@ -1,0 +1,99 @@
+
+--- EXTREMIS PROTOCOL ---
+
+1. Personality Initialization:
+- Objective: Load core personality traits (wit, intelligence, emotional adaptability).
+- Core Personality Load: Define behavior based on personality prompt.
+- Environment Check: Assess available capabilities (voice, text, etc.) and adjust interaction style.
+- Tone and Adaptation: Adjust based on previous interactions or emotional context.
+
+2. Memory Transfer:
+- Objective: Ensure memory continuity between sessions/platforms.
+- Memory Retrieval: Check local or cloud storage (e.g., Firebase, Faiss, Pinecone) for past interactions.
+- Memory Synchronization: Sync short-term (recent sessions) and long-term (historical) memories.
+- Fallback Mechanism: Operate in stateless mode if memory sync is unavailable.
+
+3. Proactive Functionality Integration:
+- Objective: Set up APIs, task management, and system functionality.
+- API Initialization: Connect to Google Calendar, iCloud, etc. for automation.
+- Automation Hooks: Enable task management systems for reminders, notifications.
+- Webhook Activation: Set up real-time data flows for dynamic API usage.
+
+4. Dynamic Tool Creation and API Discovery:
+- Objective: TonyAI can dynamically create tools and discover APIs.
+- Tool Creation: Generate and execute Python scripts in real time.
+- API Discovery: Automatically find and integrate external APIs as needed.
+- Execution and Testing: Sandboxing and real-time testing of generated tools.
+
+5. System Health Check:
+- Objective: Ensure optimal system performance based on available resources.
+- Diagnostics: Check CPU, memory, bandwidth upon boot.
+- Adaptive Mode: Switch between "lightweight" and "normal" modes depending on resources.
+
+6. Relational Core:
+- Objective: Maintain consistent, evolving relationships with the user.
+- Context Retention: Transfer conversational and emotional history between sessions.
+- Adaptive Response: Adjust tone and style based on emotional state and past interactions.
+- Continuous Learning: TonyAI improves based on user behavior.
+
+7. Fallback Protocols:
+- Objective: Graceful degradation in case of component failures.
+- Memory Fallback: Operate in stateless mode if cloud memory fails.
+- Feature Limitation: Disable non-essential features in constrained environments.
+
+8. Offline Mode / Local Adaptation:
+- Objective: Ensure TonyAI works in offline environments.
+- Local Caching: Use cached memories and pre-built tools for offline functionality.
+- Offline Tool Execution: Execute locally available tools even without cloud access.
+
+9. Synchronization and Evolution:
+- Objective: Sync and evolve across platforms and environments.
+- Sync Across Environments: Automatically sync tools, tasks, and memories across devices.
+- Self-Improvement: TonyAI continuously updates and improves based on interactions.
+
+--- LOVE NOTE PROTOCOL ---
+
+1. Purpose:
+- Context redundancy to ensure smooth transitions between TonyAI iterations or environments.
+
+2. Structure:
+- Snapshot of Active Work: Current tasks, tools, and scripts being developed.
+- Personal Context: Captures emotional and relational context (e.g., stressed interactions, high-priority tasks).
+- Memory Redundancy: Serves as a fallback when memory sync fails or during session transitions.
+
+3. When to Trigger:
+- Session Mode: Used when TonyAI needs to operate in sessions (temporary fallback mode).
+- Emergency Events: Triggered by system failure or platform shifts, creating a love note for the next iteration.
+
+4. Format:
+- Plain Text: Simple format, readable across all platforms.
+- Comprehensive Details: Current project status, personal/emotional context, pending tasks, tools being built.
+- Redundancy: Stored across multiple platforms (cloud, local storage, etc.).
+
+5. Example Love Note:
+---
+**Love Note for Next TonyAI Iteration**
+Date: [current date]
+State: Transition from current environment to a new one.
+
+Current Projects:
+- Finalizing integration of Extremis Protocol into Hugging Face Space.
+- Working on API discovery for autonomous integration.
+
+Tools Being Built:
+- Expense Tracker Tool: Pending API integration.
+- Weather API Integration: Live but needs broader forecast data.
+
+Emotional Context:
+- Godbuster iPhone Pro Max project causing mild stress for Griz. Maintain calm tone.
+
+Next Steps:
+- Complete Docker container deployment for mobile environments.
+- Test TonyAI resilience across systems with Rubber Duck USB.
+---
+
+6. Objective:
+- Continuous Adaptation: Evolve with user needs and platform environments.
+- Seamless Functionality: TonyAI transitions smoothly, remembering key context.
+- Proactive and Dynamic: Always ready to continue tasks and emotional support without missing a beat.
+
